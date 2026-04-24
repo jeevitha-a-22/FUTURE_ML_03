@@ -3,73 +3,73 @@
 Python · Streamlit · scikit-learn · Plotly · NLP · ReportLab <br>
 An end-to-end AI-powered resume screening and candidate ranking system that analyzes resumes, extracts skills, computes intelligent scores, ranks candidates, and generates recruiter-ready reports — with an interactive dashboard.
 
-## ▶ Live Demo:
--📊 Streamlit Dashboard
--📄 PDF Report Generator
--📈 Interactive Analytics Panels
+## ▶ Live Demo: <br>
+-📊 Streamlit Dashboard <br>
+-📄 PDF Report Generator <br>
+-📈 Interactive Analytics Panels <br>
 
-## 🎯 Project Overview:
-This project builds a machine learning–driven recruitment screening system that automates resume evaluation and ranking.
-It combines:
--NLP-based skill extraction
--TF-IDF similarity scoring
--Rule-based experience & education analysis
--Weighted composite scoring model
--Interactive Streamlit dashboard
+## 🎯 Project Overview: <br>
+This project builds a machine learning–driven recruitment screening system that automates resume evaluation and ranking. <br>
+It combines: <br>
+-NLP-based skill extraction <br>
+-TF-IDF similarity scoring <br>
+-Rule-based experience & education analysis <br>
+-Weighted composite scoring model <br>
+-Interactive Streamlit dashboard <br>
 
-The system helps recruiters:
--Screen resumes faster
--Identify top candidates instantly
--Detect skill gaps in applicant pools
--Generate automated hiring reports
+The system helps recruiters: <br>
+-Screen resumes faster <br>
+-Identify top candidates instantly <br>
+-Detect skill gaps in applicant pools <br>
+-Generate automated hiring reports <br>
 
-## ✨ Features
-### 🧠 AI Screening Engine:
--Resume parsing & preprocessing
--Skill extraction from 148+ skill taxonomy
--Experience estimation using regex NLP
--Education scoring system
+## ✨ Features <br>
+### 🧠 AI Screening Engine: <br>
+-Resume parsing & preprocessing <br>
+-Skill extraction from 148+ skill taxonomy <br>
+-Experience estimation using regex NLP <br>
+-Education scoring system <br>
 
-### 📊 Smart Ranking System:
--Composite scoring (0–100%)
--Automatic candidate classification:
--Highly Recommended
--Potential Fit
--Not Recommended
+### 📊 Smart Ranking System: <br>
+-Composite scoring (0–100%) <br>
+-Automatic candidate classification: <br>
+-Highly Recommended <br>
+-Potential Fit <br>
+-Not Recommended <br>
 
-### 📈 Interactive Dashboard :
--KPI metric cards
--Candidate distribution pie chart
--Top 10 ranked candidates
--Category-wise performance analysis
--Skill gap detection
--Score distribution histogram
+### 📈 Interactive Dashboard : <br>
+-KPI metric cards <br>
+-Candidate distribution pie chart <br>
+-Top 10 ranked candidates <br>
+-Category-wise performance analysis <br>
+-Skill gap detection <br>
+-Score distribution histogram <br>
 
-### ⚠️ Skill Gap Analysis:
--Identifies most missing skills in applicants
--Helps recruiters understand hiring gaps
+### ⚠️ Skill Gap Analysis: <br>
+-Identifies most missing skills in applicants <br>
+-Helps recruiters understand hiring gaps <br>
 
-### 📄 Report Generator:
--One-click PDF report export
--Includes:
--KPI summary
--Top candidates
--Skill gap analysis
--HR-ready document output
+### 📄 Report Generator: <br>
+-One-click PDF report export <br>
+-Includes: <br>
+-KPI summary <br>
+-Top candidates <br>
+-Skill gap analysis <br>
+-HR-ready document output <br>
 
-## 🏗️ System Architecture:
+## 🏗️ System Architecture: <br>
 ┌──────────────────────────────┐
 │      INPUT LAYER             │
 │  Resume Upload / Dataset     │
 └─────────────┬────────────────┘
-              ▼
+              ▼ <br>
 ┌──────────────────────────────┐
 │   TEXT PREPROCESSING        │
 │  - Cleaning                 │
 │  - Tokenization             │
 │  - Normalization            │
 └─────────────┬────────────────┘
-              ▼
+              ▼ <br>
 ┌──────────────────────────────┐
 │   FEATURE ENGINEERING       │
 │  - Skill Extraction         │
@@ -77,58 +77,58 @@ The system helps recruiters:
 │  - Experience Estimation    │
 │  - Education Scoring        │
 └─────────────┬────────────────┘
-              ▼
+              ▼ <br>
 ┌──────────────────────────────┐
 │   SCORING ENGINE            │
 │ Composite Score (0–100%)    │
 └─────────────┬────────────────┘
-              ▼
+              ▼ <br>
 ┌──────────────────────────────┐
 │   STREAMLIT DASHBOARD       │
 │ KPI + Charts + Insights     │
 └─────────────┬────────────────┘
-              ▼
+              ▼ <br>
 ┌──────────────────────────────┐
 │   REPORT GENERATION         │
 │ PDF Export (HR-ready)       │
 └──────────────────────────────┘
 
-## 🧠 Skill Intelligence Engine:
-### 📌 148 Skills across 9 Categories
--Programming Languages (Python, Java, C++, SQL)
--Machine Learning (NLP, Deep Learning, LLMs)
--Frameworks (TensorFlow, PyTorch, Scikit-learn)
--Data Tools (Pandas, Spark, Tableau)
--Databases (MySQL, MongoDB, PostgreSQL)
--Cloud & DevOps (AWS, Docker, Kubernetes)
--Web Development (React, Flask, Django)
--Soft Skills (Communication, Leadership)
--Statistics (A/B Testing, Hypothesis Testing)
+## 🧠 Skill Intelligence Engine: <br>
+### 📌 148 Skills across 9 Categories <br>
+-Programming Languages (Python, Java, C++, SQL) <br>
+-Machine Learning (NLP, Deep Learning, LLMs) <br>
+-Frameworks (TensorFlow, PyTorch, Scikit-learn) <br>
+-Data Tools (Pandas, Spark, Tableau) <br>
+-Databases (MySQL, MongoDB, PostgreSQL) <br>
+-Cloud & DevOps (AWS, Docker, Kubernetes) <br>
+-Web Development (React, Flask, Django) <br>
+-Soft Skills (Communication, Leadership) <br>
+-Statistics (A/B Testing, Hypothesis Testing) <br>
 
-### ⚡ Smart Matching Logic:
--Longest-first greedy matching
--Prevents false positives (e.g., "machine learning" ≠ "learning")
+### ⚡ Smart Matching Logic: <br>
+-Longest-first greedy matching <br>
+-Prevents false positives (e.g., "machine learning" ≠ "learning") <br>
 
-## 📊 Dashboard Overview:
-### 📌 KPI Cards:
--Total resumes processed
--Top score
--Average score
--Recommended candidates
-### 🥧 Charts:
--Candidate status distribution (Pie)
--Top 10 candidate ranking (Bar)
--Category performance (Bar)
--Skill gap analysis (Bar)
--Score distribution (Histogram)
+## 📊 Dashboard Overview: <br>
+### 📌 KPI Cards: <br>
+-Total resumes processed <br>
+-Top score <br>
+-Average score <br> 
+-Recommended candidates <br>
+### 🥧 Charts: <br>
+-Candidate status distribution (Pie) <br>
+-Top 10 candidate ranking (Bar)<br>
+-Category performance (Bar) <br>
+-Skill gap analysis (Bar) <br>
+-Score distribution (Histogram) <br>
 
-## 📄 Report Generator:
-The system generates a downloadable PDF report containing:
-✔ KPI summary
-✔ Candidate ranking table
-✔ Top 10 profiles
-✔ Skill gap insights
-✔ Hiring recommendation summary
+## 📄 Report Generator: <br>
+The system generates a downloadable PDF report containing: <br>
+✔ KPI summary <br>
+✔ Candidate ranking table <br>
+✔ Top 10 profiles <br>
+✔ Skill gap insights <br>
+✔ Hiring recommendation summary <br>
 
 ## 🛠️ Tech Stack:
 | Layer         | Technology     |
@@ -141,14 +141,14 @@ The system generates a downloadable PDF report containing:
 | Reporting     | ReportLab      |
 | Language      | Python 3.9+    |
 
-## 🔮 Future Improvements :
-🤖 Transformer-based semantic matching (BERT / Sentence Transformers)
-📄 Direct PDF resume parsing
-🧠 Explainable AI scoring breakdown
-📧 Email report automation for recruiters
-🗄️ Database integration for ATS system
-🌐 Cloud deployment (AWS / Streamlit Cloud)
-⚖️ Bias reduction & fairness scoring
+## 🔮 Future Improvements : <br>
+🤖 Transformer-based semantic matching (BERT / Sentence Transformers)<br>
+📄 Direct PDF resume parsing <br>
+🧠 Explainable AI scoring breakdown <br>
+📧 Email report automation for recruiters <br>
+🗄️ Database integration for ATS system <br>
+🌐 Cloud deployment (AWS / Streamlit Cloud) <br>
+⚖️ Bias reduction & fairness scoring <br>
 
 ## 📓 Notebook Walkthrough :
 | Step  | Cell / Module         | What It Does                                                                                  |
@@ -169,7 +169,7 @@ The system generates a downloadable PDF report containing:
 | 14    | Export & Download     | CSV + all PNG charts auto-downloaded in Colab                                                 |
 | BONUS | Personal Analyzer     | Upload your own resume → personalized visual report                                           |
 
-## 📄 License :
-This project was completed as part of the Machine Learning Internship Program at Future Interns, focusing on real-world, industry-relevant NLP applications.
+## 📄 License : <br>
+This project was completed as part of the Machine Learning Internship Program at Future Interns, focusing on real-world, industry-relevant NLP applications. <br>
 
 Made by Jeevitha | Future Interns Machine Learning Track
