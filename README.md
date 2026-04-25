@@ -3,9 +3,63 @@
 Python · Streamlit · scikit-learn · Plotly · NLP · ReportLab <br>
 An end-to-end AI-powered resume screening and candidate ranking system that analyzes resumes, extracts skills, computes intelligent scores, ranks candidates, and generates recruiter-ready reports — with an interactive dashboard.
 
+## 📦 Datasets : <br>
+The notebook supports three optional Kaggle datasets uploaded in Step 2. If none are uploaded, it falls back to 100 fully synthetic resumes + 6 synthetic JDs.<br>
+### Dataset	Kaggle Link : <br>
+Resume Dataset -> gauravduttakiit/resume-dataset	-> Resume pool to screen <br>
+Job Descriptions -> ravindrasinghrana/job-description-dataset	-> JD profiles for each role <br>
+
 ## ▶ Live Demo: <br>
--📊 Streamlit Dashboard <br>
--📄 PDF Report Generator <br>
+### 📊 Streamlit Dashboard : <br>
+#### 📄 What the App Does: <br>
+The Streamlit app replicates a full AI resume screening pipeline inside a clean dashboard UI: <br>
+
+##### 📥 Resume Input Options : <br>
+Upload multiple resumes (.pdf, .docx, .txt) <br>
+Paste resume text directly <br>
+Load sample/demo resumes for testing <br>
+
+##### 🎯 Job Role Selection: <br>
+Choose a target role from: <br>
+Data Scientist <br>
+Machine Learning Engineer <br>
+Full Stack Developer <br>
+DevOps Engineer <br>
+Data Analyst <br>
+Software Engineer <br>
+
+##### ⚙️ AI Screening Pipeline : <br>
+The system performs: <br>
+🧹 Text cleaning & preprocessing <br>
+🧠 Skill extraction (NLP-based) <br>
+📊 Experience & education scoring <br>
+📌 Keyword matching with job description <br>
+⚖️ Weighted final ranking score <br>
+
+##### 📊 Dashboard Features : <br>
+###### 📈 Candidate Ranking Table : <br>
+Ranked list of all candidates <br>
+Overall match score <br>
+Skill match percentage <br>
+
+###### 📊 Visualization Panels :<br>
+Skill match comparison (bar chart) <br>
+Score distribution analysis <br>
+Role-wise suitability comparison <br>
+Performance insights dashboard <br>
+
+###### 🧾 Detailed Candidate Report : <br>
+For each resume: <br>
+Extracted skills <br>
+Experience level <br>
+Education score <br>
+Final AI match score <br>
+
+###### 📁 Export Option <br>
+Download ranked results as CSV <br>
+Save screening report for HR use <br>
+
+-📄 PDF Report Generator <br> 
 -📈 Interactive Analytics Panels <br>
 
 ## 🎯 Project Overview: <br>
