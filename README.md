@@ -6,8 +6,8 @@ An end-to-end AI-powered resume screening and candidate ranking system that anal
 ## 📦 Datasets : <br>
 The notebook supports three optional Kaggle datasets uploaded in Step 2. If none are uploaded, it falls back to 100 fully synthetic resumes + 6 synthetic JDs.<br>
 ### Dataset	Kaggle Link : <br>
-Resume Dataset -> gauravduttakiit/resume-dataset	-> Resume pool to screen <br>
-Job Descriptions -> ravindrasinghrana/job-description-dataset	-> JD profiles for each role <br>
+Resume Dataset -> https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset	-> Resume pool to screen <br>
+Job Descriptions ->  https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset -> JD profiles for each role <br>
 
 ## ▶ Live Demo: <br>
 ### 📊 Streamlit Dashboard : <br>
